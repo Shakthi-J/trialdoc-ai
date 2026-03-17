@@ -4,4 +4,4 @@ groq
 python-docx
 reportlab
 scipy
-python-dotenv
+
