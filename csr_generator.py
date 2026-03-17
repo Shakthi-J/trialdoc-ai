@@ -1,9 +1,8 @@
+import streamlit as st
 from groq import Groq
 
-def generate_csr(study_data: dict, structured_data: dict) -> str:
-
-    import streamlit as st
-client = Groq(api_key=st.secrets["GROQ_API_KEY"])
+def generate_sap(study_data: dict) -> str:
+    client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
     results_summary = "\n".join([
         f"  - {r['treatment']}: N={r['sample_size']}, Mean={r['mean']}, SD={r['std_dev']}"
