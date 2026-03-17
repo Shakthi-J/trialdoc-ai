@@ -1,7 +1,7 @@
 streamlit
 pandas
-pydantic
-google-generativeai
+groq
 python-docx
-python-dotenv
+reportlab
 scipy
+python-dotenv
