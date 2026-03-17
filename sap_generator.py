@@ -1,9 +1,8 @@
+import streamlit as st
 from groq import Groq
 
 def generate_sap(study_data: dict) -> str:
-
-    import streamlit as st
-client = Groq(api_key=st.secrets["GROQ_API_KEY"])
+    client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
     prompt = f"""
 You are a senior biostatistician at a Contract Research Organization (CRO).
