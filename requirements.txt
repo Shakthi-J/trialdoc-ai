@@ -5,3 +5,4 @@ python-docx
 reportlab
 scipy
 numpy
+python-dotenv
